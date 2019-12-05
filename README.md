@@ -10,13 +10,13 @@ Additionally, this contract whitelists the proxy accounts of OpenSea users so th
 
 ### Node version
 
-Either make sure you're running a version of node compliant with the `engines` requirement in `package.json`, or install Node Version Manager [`nvm`](https://github.com/creationix/nvm) and run `nvm use` to use the correct version of node.
+`use v8.11.4`
 
 ## Installation
 
 Run
 ```bash
-npm install
+yarn install
 ```
 
 If you run into an error while building the dependencies and you're on a Mac, run the code below, remove your `node_modules` folder, and do a fresh `npm install`:
